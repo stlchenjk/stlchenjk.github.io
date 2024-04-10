@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Example</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between; /* 将子项等距地分布在容器内 */
+            gap: 10px; /* 设置子项之间的间距 */
+        }
+        .item {
+            flex: 1; /* 让每个子项占据相同的空间 */
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+        }
+        .item img {
+            width: 75%; /* 让图片填充整个容器 */
+            height: auto; /* 根据宽度自动调整高度 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="padding-left:40px;">
+        <div class="item"><img src="https://cloud.tsinghua.edu.cn/f/64d2f8db525e4d20b93d/?dl=1" alt="Image 1"></div>
+        <div class="item"><img src="https://cloud.tsinghua.edu.cn/f/3d4c03cb093c4fefb3ee/?dl=1" alt="Image 2"></div>
+        <div class="item"><img src="https://cloud.tsinghua.edu.cn/f/43319718a0b04092b6e7/?dl=1" alt="Image 3"></div>
+    </div>
+    <div class="container">
+            <div class="item"> <a href="pv_group1.html">group1</a> </div>
+            <div class="item"> <a href="pv_group2.html">group2</a> </div>
+            <div class="item"> <a href="pv_group3.html">group3</a> </div>
+    </div>
+</body>
+</html>
