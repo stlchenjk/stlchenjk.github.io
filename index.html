@@ -1,88 +1,76 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-     <head>
-         <title >Personal Homepage of C</title>
-         <meta charset="utf-8">
-         <style>
-                        *{
-                               margin:0; 
-                          
-}
-                     
-                      #videoBG{
-                                                 position:fixed;  
-                                                  width:100%; 
-                                                 height:auto;    
-                                                   z-index:-1;
-                                         }
-                        @media(min-aspect-ratio:16/9){
-                                           #videoBG{
-                                                                       width:100%;
-                                                                       height:auto;
-                                                             }
-                          }
-@media(max-aspect-ratio:16/9){
-                                           #videoBG{
-                                                                       width:100%;
-                                                                       height:auto;
-                                                             }
-                          }
-         </style>
-         
-     </head>
-     <body>
-        <video id="videoBG" autoplay muted loop src="06.mp4"></video>
-        <center>
-          <h1>
-                    <br/>
-                    <font color="orange">Welcome to C's place
-                    </font>
-          </h1>
-          <hr size="5" color="gray" width="600"/>
-          <br/>
-          <table border="1" >
-                  <tr>
-                        <td width="400" align="center">
-                            <video src="./10.mp4" controls="controls"   width="250" autoplay muted loop/>    
-                        </td>
-                  </tr>
-                  <tr>
-                       <td colspan="2">
-                               <p align="center">
-                                     <b> <font size="5">Outline of my life</font></b>
-                               </p><br/>
-                               <p>
-                                       <b><i>Interests:</font></i></b>
-                                       <b><i>Chlamydomonas reinhardtii</i></b>
-                                       <b>Old film like The holiday of Roma</b>
-                                       <b>Soccer</b>
-                                  </p><br/>
-                                  <p>
-                                       <b><i>Education experience:</i></b>
-                                       <ol>
-                                             <i><a href="https://life.jlu.edu.cn/" target="_blank">    Jilin University</a></i>
-                                            <i><a href="https://life.tsinghua.edu.cn/" target="_blank">    Tsinghua University</a></i>
-                                        </ol>
-                                  </p><br/>
-                                  <p>
-                                             <b><i>Some records of unforgettable moments:</i></b>
-                                            <ol>
-                                             <a href="https://space.bilibili.com/502247874?spm_id_from=333.1007.0.0"> I in Bilibili</a><br/>
-                                            <a href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzkzNDMyMjY3Ng==&scene=124#wechat_redirect">My WeChat subscription number</a>
-                                           </ol>
-                                  </p><br/>
-                       </td>
-                  </tr>
-          </table>
-          <br/>
-          <p>
-                  <b><font size="5">If you<br/>
-Just email me at</font></b>
-                  <i><a href="http://stl.chenjk@foxmail.com">stl.chenjk@foxmail.com</i>
-          </p>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chen's Homepage</title>
+
+        <style>
+              .styled_text{
+                              font-size:50px;
+                              color:#4682B4;
+                            }
+              .centered    {
+
+                              text-align:center;
+                            }
+
+                         a {
+                              color:green;
+                              font-size:20px;
+                            }
+
+             .padding_left {
+                              padding-left:100px;
+                            }
+
+                 .bg_video {
+                              position: fixed;
+                              right: 0;
+                              bottom: 0;
+                              min-width: 100%;
+                              min-height: 100%;
+                              width: auto;
+                              height: auto;
+                              z-index: -1;
+                              overflow: hidden;
+                            }
+        </style>
+
+</head>
+
+<!--  我想在这里写一点注释  -->
+
+<body>
+
+      <video autoplay loop muted class="bg_video">
+                <source src="https://cloud.tsinghua.edu.cn/f/6b8cdbb568464cedbce5/?dl=1" type="video/mp4">
+                Sorry, friend! You are stuck
+      </video>
+
+      <p class="styled_text centered">Welcome to Chen's room</p>
+
+      <p style="font-size: 30px;" >🏎  Education experience</p>
+      <p class="padding_left">
+          <a  href="https://life.tsinghua.edu.cn/">Current: 清华大学生命科学学院</a> <br><br>
+          <a  href="https://life.jlu.edu.cn/">Previous: 吉林大学生命科学学院</a>
+      </p>
+
+      <p style="font-size: 30px;">🏎   Personal hobbies</p>
+      <p class="padding_left">
+          <a href="second.html"> Photos and videos</a> <br><br>
+          <a href="third.html">Classical films</a>
+      </p>
 
 
-        </center>
-     </body>
-     
+      <p style="font-size: 30px;">🏎    Keep in touch</p>
+      <p class="padding_left" style="font-size:20px; color:#8000FF; font-style:italic">
+           chen-jk22@mails.tsinghua.edu.cn<br><br>
+           mascjk666@gmail.com
+      </p>
+</body>
+
+
+
 </html>
